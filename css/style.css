@@ -1,6 +1,8 @@
-body{font-family:'Alegreya Sans', sans-serif,'Noto Sans TC',sans-serif;
-background:linear-gradient(transparent 10%,#d3cfd9 85%);color:#1f3134;
-border-radius:30px;}
+body {font-family:'Alegreya Sans', sans-serif,'Noto Sans TC',sans-serif;
+    background:linear-gradient(transparent 10%,#d3cfd9 85%);
+    color:#1f3134;
+    border-radius:30px;
+}
 
 body {
     padding: 20px 0;

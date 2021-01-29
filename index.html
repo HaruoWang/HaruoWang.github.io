@@ -26,28 +26,11 @@
 
         <!--標準網址宣告-->
     <link rel="canonical" href="https://haruowang.github.io/">
-        <!-- Bootstrap core CSS -->
+        <!--Bootstrap 核心 CSS-->
     <link href="css/bs5/bootstrap.min.css" rel="stylesheet">
 
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-
-        <!-- Custom styles for this template -->
+        <!--Bootstrap 美化 CSS-->
     <link href="css/bs5/carousel.css" rel="stylesheet">
 
     <link href="css/style.css"type="text/css"rel="stylesheet">
@@ -59,16 +42,31 @@
 
     <body>
     
+
 <header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+
+<!--navbar-expand：出現漢堡選單之斷點-->
+<!--navbar-dark：導覽列背景顏色-->
+<!--bg-dark：導覽列文字顏色-->  
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
+
+
 <!--寫幀集-->      
       <a class="navbar-brand" href="#">fraME</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+
+<!--button class…：使導覽列符合BS規範-->
+<!--data-bs-toggle…：使導覽列能夠伸展-->
+<!--data-bs-target…：套用下方div區塊裡的id-->
+<!--aria…：和無障礙瀏覽有關的標籤-->      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" 
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
+
           <li class="nav-item active">
 <!--關於-->
             <a class="nav-link" aria-current="page" href="#">About</a>
@@ -81,7 +79,10 @@
 <!--實驗場-->            
             <a class="nav-link" href="#">Lab</a>
           </li>
+
         </ul>
+
+
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>

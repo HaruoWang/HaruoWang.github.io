@@ -3,32 +3,3 @@ body {font-family:'Alegreya Sans', sans-serif,'Noto Sans TC',sans-serif;
     color:#1f3134;
     border-radius:30px;
 }
-
-body {
-    padding: 20px 0;
-}
-
-nav ul {background-color: #d3cfd9; /* 同行顏色跑不出來 */ 
-    list-style: none; /* 移除項目符號 */
-    margin: 0;
-    padding: 0;
-}
-
-nav a {
-    color: inherit; /* 移除超連結顏色 */
-    display: block; /* 讓 <a> 填滿 <li> */
-    font-size: 1.2rem;
-    padding: 10px;
-    text-decoration: none; /* 移除超連結底線 */
-}
-
-nav a:hover {
-    background-color: #d3cfd9;
-    color: white; /* 滑鼠移到 <a> 時文字變成淺色 */
-
-}
-
-.寫幀集-nav {
-    display: flex;
-    justify-content: space-around;
-}

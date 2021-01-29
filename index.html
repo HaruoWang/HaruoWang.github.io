@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 
-	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QVH86ZM211"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -12,60 +12,240 @@
   gtag('config', 'G-QVH86ZM211');
 </script>
 
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!--標記網頁描述｜Open Graph Protocol-->
-	<meta name="description" property="og:description" 
-	itemprop="description" content="此網站為臺藝大圖文系學生 Haruo Wang 於2020年開始自主架設，作為前端工程、SEO及介面設計練習場，與其嘗試數位敘事之刊載平台所用。">
-		<!--Google Search Console 證明-->
-	<meta name="google-site-verification" content="QM81eyfiJNzxHY7-3elp-mhcvo9XfifzVk5-iGK8IBk" />
-	<title>寫幀集｜抒寫幀實，是數位敘事的真諦</title>
-	<link href="css/style.css"type="text/css"rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
-	</head>
 
-	<body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--標記網頁描述｜Open Graph Protocol-->
+    <meta name="description" property="og:description" 
+    itemprop="description" content="此網站為臺藝大圖文系學生 Haruo Wang 於2020年開始自主架設，作為前端工程、SEO及介面設計練習場，與其嘗試數位敘事之刊載平台所用。">
+        <!--Google Search Console 證明-->
+    <meta name="google-site-verification" content="QM81eyfiJNzxHY7-3elp-mhcvo9XfifzVk5-iGK8IBk" />
+    
+    <title>寫幀集｜抒寫幀實，是數位敘事的真諦</title>
 
-		<header>
 
-		<div class=logo></div>
- 		<label for="burger">☰</label>
- 		<input type="checkbox" id="burger">
-		<nav>
-		<ul class="寫幀集-nav">
-		<li><a href="https://haruowang.github.io/fraME/"><h3>fraME</h3></a></li>
-  		<li><a href="#"><h3>Blog</h3></a></li>
-  		<li><a target="_blank" href="https://www.behance.net/haruowang"><h3>Portfolio</h3></a></li>
-  		<li><a href="#"><h3>Laboratory</h3></a></li>
- 		</ul>
-		</nav>
+        <!--標準網址宣告-->
+    <link rel="canonical" href="https://haruowang.github.io/">
+        <!-- Bootstrap core CSS -->
+    <link href="css/bs5/bootstrap.min.css" rel="stylesheet">
 
-		</header>
 
-			<br>
-			<br>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
 
-			<main>
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
 
-			<h3>About</h3>
-			<br>
-			<h2>Haruo Wang</h2>
 
-			<br><h3>大學填的是圖文傳播。自認這輩子若做不成光影詩人，興許就會耽溺在字裡行間尋求慰藉。
-			<p>或勤於裝幀排印，或敢於運筆飛暢。所求不過是讓一顆焦慮不安的心靈能夠安然停泊。此刻正煩惱著該如何打磨屬於創作人的品格修養。</p></h3>
-			
-			<br>
+        <!-- Custom styles for this template -->
+    <link href="css/bs5/carousel.css" rel="stylesheet">
 
-			<br>
-			<img src="images/文字雲自介.png" alt="寫幀集">
+    <link href="css/style.css"type="text/css"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
 
-			</main>
+    </head>
 
-			<br>
-	
-		<footer><h4>Copyright &copy; fraME. All Rights Reserved.</h4></footer>
 
-	</body>
+    <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+<!--寫幀集-->      
+      <a class="navbar-brand" href="#">fraME</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item active">
+<!--關於-->
+            <a class="nav-link" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+<!--部落格-->            
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+<!--實驗場-->            
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Lab</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
 
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+      <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+<!--惡之華-->        
+        <img src="images/惡之華.JPG" alt="抒寫幀實">
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+<!--抒寫幀實。-->            
+            <h1>抒寫幀實，是數位敘事的真諦</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+<!--了解更多-->            
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">了解更多</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Another example headline.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>One more for good measure.</h1>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Heading</h2>
+        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Heading</h2>
+        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Heading</h2>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+<!--About-->        
+        <h2 class="featurette-heading">About</h2>
+        <br>
+<!--網站簡介-->        
+        <p class="lead">此網站為臺藝大圖文系學生 Haruo Wang 於2020年開始自主架設，作為前端工程、SEO及介面設計練習場，與其嘗試數位敘事之刊載平台所用。</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+<!--Blog-->        
+        <h2 class="featurette-heading">Blog</h2>
+        <br>
+        <p class="lead">這輩子若做不成光影詩人，興許就會耽溺在字裡行間尋求慰藉——</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+<!--Lab-->        
+        <h2 class="featurette-heading">Lab<span class="text-muted"><h4>Powered by TwReporter</h4></span></h2>
+        <br>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+<!--回首頁-->    
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>Copyright &copy; fraME. All Rights Reserved.　<a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+
+    <script src="js/bs5/bootstrap.bundle.min.js"></script>
+
+      
+    </body>
 </html>

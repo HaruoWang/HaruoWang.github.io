@@ -1,2 +1,6 @@
 body {font-family:'Alegreya Sans', sans-serif,'Noto Sans TC',sans-serif;
 }
+  
+.carousel-item img {
+    object-fit: cover;
+  }

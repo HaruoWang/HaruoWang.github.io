@@ -2,5 +2,6 @@ body {font-family:'Alegreya Sans', sans-serif,'Noto Sans TC',sans-serif;
 }
   
 .carousel-item img {
-    object-fit: cover;
-  }
+    /*object-fit: cover=填滿寬度及高度(維持原比例，會裁切)*/
+        object-fit: cover;
+      }

@@ -4,5 +4,18 @@ body {
   
 .carousel-item img {
     /*object-fit: cover=填滿寬度及高度(維持原比例，會裁切)*/
-        object-fit: cover;
+    object-fit: cover;
+}
+
+.hover {
+    /*opacity: 0.75=不透明度*/
+    /*transition: 0.5s=過渡時間*/
+    opacity: 0.75;
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+.hover:hover {
+    opacity: 1;
+    transform: scale(1);
 }

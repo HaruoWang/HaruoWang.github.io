@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" id="modernizrcom" class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>《一個音遊機台愛好者的告白》</title>
+       <meta name="description" content="此網站為臺藝大圖文系學生 Haruo Wang 於2021年開始自主架設，作為前端工程、SEO及介面設計練習場，與其嘗試數位敘事之刊載平台所用。">
+       <meta name="author" content="Haruo Wang">
+        <meta property="og:title" content="《一個音遊機台愛好者的告白》" />
+        <meta property="og:site_name" content="寫幀集｜抒寫幀實，是數位敘事的真諦" />
+        <meta property="og:description" content="此網站為臺藝大圖文系學生 Haruo Wang 於2021年開始自主架設，作為前端工程、SEO及介面設計練習場，與其嘗試數位敘事之刊載平台所用。" />
+        <meta property="og:image" content="https://haruowang.github.io/images/Lab/Lab.JPG" />
+      <meta property="og:type" content="article" />
+      <meta content="yes" name="apple-mobile-web-app-capable">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QVH86ZM211"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-QVH86ZM211');
+      </script>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" href="img/touch-icon.png">
+      <link rel="stylesheet" type="text/css" href="app.0b205fa8221e070a8df20ecd354143ff.css">
+
+    <script type="text/javascript">
+      !function(a){var b=/iPhone/i,c=/iPod/i,d=/iPad/i,e=/(?=.*\bAndroid\b)(?=.*\bMobile\b)/i,f=/Android/i,g=/(?=.*\bAndroid\b)(?=.*\bSD4930UR\b)/i,h=/(?=.*\bAndroid\b)(?=.*\b(?:KFOT|KFTT|KFJWI|KFJWA|KFSOWI|KFTHWI|KFTHWA|KFAPWI|KFAPWA|KFARWI|KFASWI|KFSAWI|KFSAWA)\b)/i,i=/Windows Phone/i,j=/(?=.*\bWindows\b)(?=.*\bARM\b)/i,k=/BlackBerry/i,l=/BB10/i,m=/Opera Mini/i,n=/(CriOS|Chrome)(?=.*\bMobile\b)/i,o=/(?=.*\bFirefox\b)(?=.*\bMobile\b)/i,p=new RegExp("(?:Nexus 7|BNTV250|Kindle Fire|Silk|GT-P1000)","i"),q=function(a,b){return a.test(b)},r=function(a){var r=a||navigator.userAgent,s=r.split("[FBAN");if("undefined"!=typeof s[1]&&(r=s[0]),s=r.split("Twitter"),"undefined"!=typeof s[1]&&(r=s[0]),this.apple={phone:q(b,r),ipod:q(c,r),tablet:!q(b,r)&&q(d,r),device:q(b,r)||q(c,r)||q(d,r)},this.amazon={phone:q(g,r),tablet:!q(g,r)&&q(h,r),device:q(g,r)||q(h,r)},this.android={phone:q(g,r)||q(e,r),tablet:!q(g,r)&&!q(e,r)&&(q(h,r)||q(f,r)),device:q(g,r)||q(h,r)||q(e,r)||q(f,r)},this.windows={phone:q(i,r),tablet:q(j,r),device:q(i,r)||q(j,r)},this.other={blackberry:q(k,r),blackberry10:q(l,r),opera:q(m,r),firefox:q(o,r),chrome:q(n,r),device:q(k,r)||q(l,r)||q(m,r)||q(o,r)||q(n,r)},this.seven_inch=q(p,r),this.any=this.apple.device||this.android.device||this.windows.device||this.other.device||this.seven_inch,this.phone=this.apple.phone||this.android.phone||this.windows.phone,this.tablet=this.apple.tablet||this.android.tablet||this.windows.tablet,"undefined"==typeof window)return this},s=function(){var a=new r;return a.Class=r,a};"undefined"!=typeof module&&module.exports&&"undefined"==typeof window?module.exports=r:"undefined"!=typeof module&&module.exports&&"undefined"!=typeof window?module.exports=s():"function"==typeof define&&define.amd?define("isMobile",[],a.isMobile=s()):a.isMobile=s()}(this);
+    </script>
+  </head>
+
+  <body class="longform frozen" name="top">
+    <div id="loading_overlay" class="loading"  style="background-image:url('https://haruowang.github.io/images/Lab/Lab.JPG');background-position:center center;background-size:cover;" >
+      <div class="opacity-pane"></div>
+
+      <img src="img/logo.svg" alt="Mural is Loading..." class="logo">
+      <h3 class="story-name">《一個音遊機台愛好者的告白》</h3>
+      <img id="play_start" class="play-start animated bounce" src="img/tuska_play.svg" style="display: none; fill:white">
+    </div>
+
+    <span class="mute">Mute</span>
+    <div class="menu_open">
+      <div class="sticks_wrapper">
+        <div class="stick -first" id="stick1"></div>
+        <div class="stick -second" id="stick2"></div>
+        <div class="stick -third" id="stick3"></div>
+      </div>
+    </div>
+
+    <div class="nav">
+      <nav>
+        <ol>
+            <li data-id="0">Origin</li>
+            <li data-id="1">Main</li>
+            <li data-id="2">一個音遊機台愛好者的告白</li>
+            <li data-id="3">Ending</li>
+        </ol>
+      </nav>
+    </div>
+
+    <article id="scrollytelling">
+
+
+
+
+
+          <section class="no-effects part text_align-center "
+                   name="story0"
+                    data-dynamic-image="true"
+                   >
+            <div class="content container-fluid">
+              <div class="row">
+                <div class="col-sm-12 header">
+                    <h1><b>Origin</b></h1>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6 text">
+                    <p style="text-align: center;">一個小大一初出茅廬就跑去修外系大三的課，應該能說有點瘋狂吧。</p><p style="text-align: center;">然而，我還是義無反顧地在「<b>紀實性節目</b>」拿到九字頭的學期平均。</p><p style="text-align: center;">而《一個音遊機台愛好者的告白》，正是當時自主企劃的期末主題。</p><p style="text-align: center;"><br></p><p style="text-align: center;">透過<a href="https://haruowang.github.io"><b>寫幀集</b></a>的「<a href="https://haruowang.github.io/Lab.html"><b>Lab</b></a>」實驗平台，我將此作品擴張成數位敘事型態——</p><p style="text-align: center;">這也是自己一直以來都想做的嘗試。<b>初次製作，若有不周，還請見諒。</b></p>
+                      <figure class="cms-image center">
+                        <img data-src="uploads/default/lab13.jpg" rel="resizable" alt="" />
+                        <figcaption>張志雄｜紀實性節目講師
+                            <span class="photographer">
+                              公視台語台
+                            </span>
+                        </figcaption>
+                      </figure>
+                    
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+
+
+
+
+
+
+          <section class="part slideshow" name="story1" data-slides=true>
+              <div class="bg-image"
+                     data-src='uploads/default/lab11.jpg'
+                     data-src-medium='uploads/default/lab11.jpg'
+                     data-src-phone='uploads/default/lab11.jpg'
+                   >
+                <div class="caption">
+                </div>
+              </div>
+              <div class="bg-image"
+                     data-src='uploads/default/lab12.jpg'
+                     data-src-medium='uploads/default/lab12.jpg'
+                     data-src-phone='uploads/default/lab12.jpg'
+                   >
+                <div class="caption">
+                </div>
+              </div>
+              <div class="bg-image"
+                     data-src='uploads/default/lab14.jpg'
+                     data-src-medium='uploads/default/lab14.jpg'
+                     data-src-phone='uploads/default/lab14.jpg'
+                   >
+                <div class="caption">
+                </div>
+              </div>
+              <div class="bg-image"
+                     data-src='uploads/default/lab.jpg'
+                     data-src-medium='uploads/default/lab.jpg'
+                     data-src-phone='uploads/default/lab.jpg'
+                   >
+                <div class="caption">
+                </div>
+              </div>
+              <div class="bg-image"
+                     data-src='uploads/default/lab1.jpg'
+                     data-src-medium='uploads/default/lab1.jpg'
+                     data-src-phone='uploads/default/lab1.jpg'
+                   >
+                <div class="caption">
+                </div>
+              </div>
+          </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <section class="st-video part"
+            name="story2"
+              data-youtube-id="bjZS003KE5s"
+              data-controls=true
+              data-auto-advance=true
+              >
+            <div class="video-container">
+              <div id="ytplayer_bjZS003KE5s_2"></div>
+            </div>
+          </section>
+
+          <section class="part sticky-image" name="story3"
+              data-image=true
+                data-src="uploads/default/lab1ed.png"
+                data-src-medium="uploads/default/lab1ed.png"
+                data-src-phone="uploads/default/lab1ed.png"
+            >
+            <style>
+              @media (orientation:portrait) {
+                section[name="story3"] .bg-image {
+                  background-position: 50%;
+                }
+              }
+            </style>
+              <div class="bg-image"></div>
+            <div class="content container-fluid">
+              <div class="row">
+                <div class="col-sm-12 header-fullpage">
+                  <div class="middle">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+
+
+
+
+
+
+
+    </article>
+      <script type="text/javascript" src="app.ada03294305e6c8639f6.js"></script>
+  </body>
+</html>

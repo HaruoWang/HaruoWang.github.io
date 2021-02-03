@@ -1,37 +1,29 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
 body {
+/* 幻燈片為何無法置頂之因 */
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #5a5a5a;
 }
 
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
 }
-/* Since positioning the image, we need to help out the caption */
+/* 說明文字位置 */
 .carousel-caption {
-  bottom: 3rem;
+  bottom: 10rem;
   z-index: 10;
 }
 
-/* Declare heights because of positioning of img element */
+/* 按鈕和圖片之相對位置 */
 .carousel-item {
-  height: 32rem;
+  height: 45rem;
 }
 .carousel-item > img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 32rem;
+  height: 45rem;
 }
 
 
